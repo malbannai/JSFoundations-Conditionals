@@ -18,3 +18,20 @@ if (num1 > num2) {
   console.log(`Sum ${num2}${sub}${num1} = ${num2 - num1}`);
   console.log(`Sum ${num2}${div}${num1} = ${num2 / num1}`);
 }
+
+// Now depending on the simbule
+// Just trying switch
+
+num3 = 4;
+num4 = 4;
+
+switch (sum) {
+  case "+":
+    console.log(`Sum ${num3}${sum}${num4} = ${num4 + num3}`);
+    break;
+  case "*":
+    console.log(`Sum ${num3}${sum}${num4} = ${num4 * num3}`);
+    break;
+  default:
+    console.log(`Nothing ... lets go home 😂`);
+}
