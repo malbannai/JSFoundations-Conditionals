@@ -7,16 +7,16 @@ let div = " / ";
 let mod = " % ";
 
 console.log(`Sum ${num1}${sum}${num2} = ${num1 + num2}`);
-console.log(`Sum ${num1}${mult}${num2} = ${num1 * num2}`);
+console.log(`Multiplication ${num1}${mult}${num2} = ${num1 * num2}`);
 
 if (num1 > num2) {
-  console.log(`Sum ${num1}${mod}${num2} = ${num1 % num2}`);
-  console.log(`Sum ${num1}${sub}${num2} = ${num1 - num2}`);
-  console.log(`Sum ${num1}${div}${num2} = ${num1 / num2}`);
+  console.log(`Mod ${num1}${mod}${num2} = ${num1 % num2}`);
+  console.log(`Subtraction ${num1}${sub}${num2} = ${num1 - num2}`);
+  console.log(`Division ${num1}${div}${num2} = ${num1 / num2}`);
 } else {
-  console.log(`Sum ${num2}${mod}${num1} = ${num2 % num1}`);
-  console.log(`Sum ${num2}${sub}${num1} = ${num2 - num1}`);
-  console.log(`Sum ${num2}${div}${num1} = ${num2 / num1}`);
+  console.log(`Mod ${num2}${mod}${num1} = ${num2 % num1}`);
+  console.log(`Subtraction ${num2}${sub}${num1} = ${num2 - num1}`);
+  console.log(`Division ${num2}${div}${num1} = ${num2 / num1}`);
 }
 
 // Now depending on the simbule
